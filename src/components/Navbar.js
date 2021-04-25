@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 const Navbar = () => {
+  return(
   <div>
     <Router>
           <div className="navbar-container">
@@ -18,6 +19,8 @@ const Navbar = () => {
           </div>
      </Router> 
   </div>
+  )
 }
+
 
 export default Navbar

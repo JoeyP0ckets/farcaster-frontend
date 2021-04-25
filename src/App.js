@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       I'm the farcaster app
-      {/* <Navbar/> */}
+      <Navbar/>
     </div>
   );
 }
