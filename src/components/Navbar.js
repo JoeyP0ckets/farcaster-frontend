@@ -5,6 +5,7 @@ import {
   Route,
   Link, 
 } from "react-router-dom";
+import About from "./About";
 
 const Navbar = () => {
   return(
@@ -17,6 +18,11 @@ const Navbar = () => {
           <Link to="About">Samples List</Link>&nbsp;&nbsp;&nbsp;
           <Link to="Projects">Profile</Link>&nbsp;&nbsp;&nbsp;
           </div>
+          <Switch>
+          <Route exact path="/">
+              <About/>
+            </Route>
+          </Switch>
      </Router> 
   </div>
   )
